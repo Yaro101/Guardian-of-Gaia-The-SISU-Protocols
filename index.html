@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/ico" href="./assets/GoG-favicon.ico" />
+    <title>GoG: the SISU Protocols</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hidden">
+        <!-- Treats -->
+        <img src="./assets/asteroid.png" id="asteroid" alt="asteroid" />
+        <img src="./assets/aliens.png" id="aliens" alt="aliens" />
+        <img src="./assets/ork2.png" id="spaceOrk" alt="spaceOrk" />
+
+        <!-- Animations -->
+        <img src="./assets/explosions.png" id="explosions" alt="explosions" />
+        <img src="./assets/dissapear.png" id="disappear" alt="disappear" />
+        <img
+          src="./assets/smokeExplosion.png"
+          id="smokeExplosion"
+          alt="smokeExplosion"
+        />
+      </div>
+      <div class="menu-images">
+        <!-- menu -->
+        <img
+          src="./assets/GoG - Pause menu.gif"
+          id="pauseImage"
+          alt="pauseImage"
+          class="hidden menu-image"
+        />
+        <img
+          src="./assets/GoG - How to play menu.gif"
+          id="helpImage"
+          alt="helpImage"
+          class="hidden menu-image"
+        />
+      </div>
+      <canvas id="canvas1"></canvas>
+    </div>
+
+    <!-- Sounds -->
+    <audio src="./assets/explosion1.wav" id="explosion1"></audio>
+    <audio src="./assets/explosion2.wav" id="explosion2"></audio>
+    <audio src="./assets/explosion3.wav" id="explosion3"></audio>
+    <audio src="./assets/explosion4.wav" id="explosion4"></audio>
+    <audio src="./assets/explosion5.wav" id="explosion5"></audio>
+    <audio src="./assets/explosion6.wav" id="explosion6"></audio>
+    <audio
+      src="./assets/disappear1-quaivat-Sound Effect from Pixabay.mp3"
+      id="disappear1"
+    ></audio>
+    <audio
+      src="./assets/disappear2-lasergun-Sound Effect from Pixabay.mp3"
+      id="disappear2"
+    ></audio>
+    <audio
+      src="./assets/disappear3-space-insect-Sound Effect from Pixabay.mp3"
+      id="disappear3"
+    ></audio>
+    <audio src="./assets/monster-roar-6985.mp3" id="monsterRoar"></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
